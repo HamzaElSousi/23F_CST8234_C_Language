@@ -1,0 +1,31 @@
+What is the maximum size of the array the program can handle?
+- By defining a Constant/Macro. #define MAX_INPUT_SIZE 100
+
+How does the program ensure that the user enters a valid array length?
+- Input validation is performed using loops and a 'if' statement to ensure correct array length and numeric values for elements.
+
+How does the code manage an invalid numeric input for array elements?
+-
+How are the three array manipulation functions implemented?
+-
+What is the role of the print_array function in the program?
+- print_array Function: This function simply prints the array's elements enclosed within curly braces {}. 
+
+In which part of the code does the user interact with the program to choose array operations?
+-
+How does the reverse_array function actually reverse the array's elements?
+- reverse_array Function: This function reverses the array. It does so by swapping elements in a symmetrical manner
+- starting from both ends and moving towards the center.
+
+How is the randomization of array elements achieved in the randomize_array function?
+- randomize_array Function: This function shuffles the array's elements. It uses a time function seed to dynamically
+- generate random indices for swapping.
+
+Can you explain the logic behind the sort_array function?
+- sort_array Function: This function sorts the array using the insertion sort algorithm. It divides the array into a
+- sorted and an unsorted region and repeatedly picks the leftmost unsorted element and moves it to its correct position
+- in the sorted region.
+
+How does the program handle invalid menu choices when selecting an array operation?
+
+- Input validation is performed using loops to ensure correct array length and numeric values for elements.
